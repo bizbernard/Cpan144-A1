@@ -1,6 +1,13 @@
+{
+  "name": "study-desk",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "dependencies": { "next": "^15.0.0", "react": "^19.0.0", "react-dom": "^19.0.0" }
+}
 const nextConfig = {
-  output: 'export',
-  basePath: '/Cpan144-A1',
+  output: 'export',          // build plain static files into /out
+  basePath: '/Cpan144-A1',   // must match your repo name exactly
   images: { unoptimized: true },
 };
 export default nextConfig;
