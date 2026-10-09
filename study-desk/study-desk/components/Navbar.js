@@ -10,7 +10,7 @@ export default function Navbar({ links }) {
 
   return (
     <header className="nav">
-      <span className="brand">Study Desk</span>
+      <span className="brand">hELLO sAM</span>
       {/* EVENT: click toggles the menu */}
       <button className="menu-btn" onClick={() => setOpen(!open)} aria-expanded={open}>
         {open ? 'Close' : 'Menu'}
